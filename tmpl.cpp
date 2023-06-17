@@ -2,15 +2,15 @@
 
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep2(i, s, n) for (int i = (s); i < (int)(n); i++)
+#define all(x) (x).begin(),(x).end()
 
 using namespace std;
+
 using ll=long long;
 
-const int INF = 2147483647;
-const int MINF = -2147483648;
-
-int N,P,Q,K,H,W;
+int L,M,N,P,Q,K,H,W,X,Y,cnt=0,ans=0,res=0,mi=INF,ma=0;
 string S,T;
+bool ok = false;
 
 int main() {
 }
