@@ -8,7 +8,7 @@ using namespace std;
 
 using ll=long long;
 
-int L,M,N,P,Q,K,H,W,X,Y,cnt=0,ans=0,res=0,mi=INF,ma=0;
+int L,M,N,P,Q,K,H,W,X,Y,cnt=0,mi=INT_MAX,ma=-1;
 string S,T;
 bool ok = false;
 
