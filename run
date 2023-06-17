@@ -1,5 +1,5 @@
 #!/bin/bash
 
-g++-12 -o a.out $@
+g++-12 -o a.out solve.cpp
 ./a.out
 rm -f a.out
