@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep2(i, s, n) for (int i = (s); i < (int)(n); i++)
 #define all(x) (x).begin(),(x).end()
@@ -18,20 +17,14 @@
 #define debug_arr(x) 
 #endif
 
-
 using namespace std;
-
 using ll=long long;
-
-
 template<typename T> bool chmax(T &a, T b) { return (a < b) ? (a = b, true) : false; }
 template<typename T> bool chmin(T &a, T b) { return (a > b) ? (a = b, true) : false; }
-
-
 const char nl = '\n';
-int L,M,N,P,Q,K,H,W,X,Y,cnt=0,mi=INT_MAX,ma=-1;
-string S,T;
 bool ok = false;
+string S,T;
+int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0,mi=INT_MAX,ma=-1;
 
 namespace dev {
   void parr(vector<int> &a) {
