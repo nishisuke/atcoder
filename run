@@ -1,5 +1,5 @@
 #!/bin/bash
 
-g++-12 -o a.out solve.cpp
+g++-12 -std=gnu++17 -Wall -o a.out main.cpp
 ./a.out
 rm -f a.out
