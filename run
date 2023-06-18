@@ -1,4 +1,4 @@
 #!/bin/bash
 
-g++-12 -Wall -Wextra -Wshadow  -fsanitize=undefined -std=gnu++17 -o a.out main.cpp && a.out
+g++-12 -Wall -Wextra -Wshadow -Wconversion -fsanitize=undefined -std=gnu++17 -o a.out main.cpp && a.out
 rm -f a.out
