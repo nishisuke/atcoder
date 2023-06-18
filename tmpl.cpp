@@ -24,7 +24,7 @@ template<typename T> bool chmin(T &a, T b) { return (a > b) ? (a = b, true) : fa
 const char nl = '\n';
 bool ok = false;
 string S,T;
-int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0,mi=INT_MAX,ma=-1;
+int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0,mi=INT_MAX,ma=-1,mod=1000000007;
 
 namespace dev {
   void parr(vector<int> &a) {
