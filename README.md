@@ -35,12 +35,6 @@ template<class T> using V = std::vector<T>; // usingはテンプレート化で�
 
 
 ```
-https://blog.hamayanhamayan.com/entry/2021/05/13/211037
 #define rrep(i,a,b) for(int i=a;i>=b;i--)
 #define fore(i,a) for(auto &i:a)
-//#pragma GCC optimize ("-O3")
-template<class T>bool chmax(T& a, const T& b) { if (a < b) { a = b; return 1; } return 0; }
-template<class T>bool chmin(T& a, const T& b) { if (b < a) { a = b; return 1; } return 0; }
 ```
-
-
