@@ -33,12 +33,19 @@ int L,M,N,P,Q,K,H,W,X,Y,cnt=0,mi=INT_MAX,ma=-1;
 string S,T;
 bool ok = false;
 
+namespace dev {
+  void parr(vector<int> &a) {
+    for (int i : a) cout << i << ", ";
+    cout << nl;
+  }
+}
+
+void solve() {
+}
+
 int main() {
   cin.tie(0);
   ios_base::sync_with_stdio(false);
 
-
-  chmax(ma,4);
-  cout << ma << nl;
-
+  solve();
 }
