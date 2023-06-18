@@ -1,5 +1,4 @@
 #!/bin/bash
 
-g++-12 -std=gnu++17 -Wall -o a.out main.cpp
-./a.out
+g++-12 -fsanitize=undefined -std=gnu++17 -o a.out main.cpp && a.out
 rm -f a.out
