@@ -10,6 +10,10 @@ long long powm(long long a, long long n, long long m) {
     return res;
 }
 
+long long divm(long long a, long long b, long long m) {
+	return (a * powm(b, m - 2, m)) % m;
+}
+
 
 vector<pair<long long, long long> > prime_factorize(long long n) {
     vector<pair<long long, long long> > res;

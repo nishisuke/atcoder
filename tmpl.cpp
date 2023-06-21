@@ -2,6 +2,7 @@
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep2(i, s, n) for (int i = (s); i < (int)(n); i++)
 #define all(x) (x).begin(),(x).end()
+#define sizeint(x) ((int)(x).size())
 
 #ifdef _DEBUG
 #define _choose5(_1,_2,_3,_4,_5,name,...) name
