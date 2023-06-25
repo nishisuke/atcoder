@@ -28,11 +28,13 @@ string S,T;
 int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0,mi=INT_MAX,ma=-1,mod=1000000007;
 
 namespace dev {
-  void parr(vector<int> &a) {
-    for (int i : a) cout << i << ", ";
+  template<typename T>
+  void parr(vector<T> &a) {
+    for (auto i : a) cout << i << ", ";
     cout << nl;
   }
 }
+template<typename T> void p(T t) { cout << t << nl; }
 
 void solve() {
 }
