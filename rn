@@ -1,5 +1,5 @@
 #!/bin/bash
 
 rm -f a.out &&
-  g++-12 -D_DEBUG -D_GLIBCXX_DEBUG  -Wall -Wextra -Wshadow -Wconversion -fsanitize=undefined -std=gnu++17 -o a.out main.cpp &&
+  g++-12 -D_DEBUG -D_GLIBCXX_DEBUG  -Wall -Wextra -Wshadow -Wconversion -fsanitize=undefined -std=c++14 -I . -o a.out main.cpp &&
   a.out
