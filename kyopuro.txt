@@ -1,0 +1,8 @@
+- m^n
+- log2N
+- m^(1/n)
+- tan,sin,cos,atan
+- print => 12.XXXXXXXX
+- double 3.333333*3 > 9.99999 ?
+- 2^63は19桁
+- 2^31は10桁
