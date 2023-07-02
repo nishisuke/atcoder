@@ -24,19 +24,19 @@ using namespace std;
 using ll=long long;
 template<typename T> bool chmax(T &a, T b) { return (a < b) ? (a = b, true) : false; }
 template<typename T> bool chmin(T &a, T b) { return (a > b) ? (a = b, true) : false; }
-const char nl = '\n';
-bool ok = false;
+const char NL = '\n';
 string S,T;
-int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0,mi=INT_MAX,ma=-1,mod=1000000007;
+int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0
+const int MOD=1000000007;
 
 namespace dev {
   template<typename T>
   void parr(vector<T> &a) {
     for (auto i : a) cout << i << ", ";
-    cout << nl;
+    cout << NL;
   }
 }
-template<typename T> void p(T t) { cout << t << nl; }
+template<typename T> void println(T t) { cout << t << NL; }
 
 void solve() {
 }

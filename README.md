@@ -26,3 +26,10 @@ template<class T> using V = std::vector<T>; // usingはテンプレート化で�
 #define rrep(i,a,b) for(int i=a;i>=b;i--)
 #define fore(i,a) for(auto &i:a)
 ```
+
+## Naming Convention
+Global var: A large letter.
+Type or its alias: 2 small letter.
+Custom func: 2-above small letter.
+Const: Large letters.
+
