@@ -28,6 +28,7 @@ const char NL = '\n';
 bool can = false;
 string S,T;
 int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0;
+vector<int> mvxy = {0,1,0,-1,0};
 const int MOD=1000000007;
 
 namespace dev {
