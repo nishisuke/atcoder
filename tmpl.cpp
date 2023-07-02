@@ -25,8 +25,9 @@ using ll=long long;
 template<typename T> bool chmax(T &a, T b) { return (a < b) ? (a = b, true) : false; }
 template<typename T> bool chmin(T &a, T b) { return (a > b) ? (a = b, true) : false; }
 const char NL = '\n';
+bool can = false;
 string S,T;
-int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0
+int H,K,L,M,N,P,Q,R,V,W,X,Y,Z,cnt=0;
 const int MOD=1000000007;
 
 namespace dev {
