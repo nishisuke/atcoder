@@ -1,5 +1,5 @@
 // https://atcoder.github.io/ac-library/production/document_ja/
-// #include <atcoder/all>
+#include <atcoder/all>
 #include <bits/stdc++.h>
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define rep2(i, s, n) for (int i = (s); i < (int)(n); i++)
@@ -21,6 +21,7 @@
 #endif
 
 using namespace std;
+using namespace atcoder;
 using ll=long long;
 template<typename T> bool chmax(T &a, T b) { return (a < b) ? (a = b, true) : false; }
 template<typename T> bool chmin(T &a, T b) { return (a > b) ? (a = b, true) : false; }
